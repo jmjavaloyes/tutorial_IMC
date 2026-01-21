@@ -63,9 +63,12 @@ Ideal para mostrar el resultado final grande y destacado.
 ```python
 # Muestra un número grande con una etiqueta encima
 st.metric(label="Temperatura Actual", value="25 ºC", delta="+2º")
+```
+
+---
 
 ## 4. Efectos especiales
 
-*`st.balloons()`: Suelta globos por la pantalla (¡úsalo para celebrar!).
+* `st.balloons()`: Suelta globos por la pantalla (¡úsalo para celebrar!).
 
-*`st.snow()`: Efecto de nieve cayendo.
+* `st.snow()`: Efecto de nieve cayendo.
