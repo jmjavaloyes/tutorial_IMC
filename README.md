@@ -170,7 +170,7 @@ Publica tu app en un servidor real. Sigue estos pasos:
 
 3. Crea un archivo llamado `Requirements.txt`: Sólo tiene que tener la palabra `streamlit`.
 
-4. Streamlit Cloud: Ve a share.streamlit.io.
+4. Streamlit Cloud: Ve a share.streamlit.io.[Streamlite Cloud](https://share.streamlit.io)
 
 * Inicia sesión con tu cuenta de GitHub.
 
