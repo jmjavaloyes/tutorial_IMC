@@ -172,6 +172,9 @@ Publica tu app en un servidor real. Sigue estos pasos:
 
 4. Streamlit Cloud: Ve a [Streamlite Cloud](https://share.streamlit.io)
 
+![Streamlite Cloud](/Deploy.png)
+
+
 * Inicia sesión con tu cuenta de GitHub.
 
 * Pulsa "Create App" arriba a la derecha
