@@ -168,7 +168,7 @@ Publica tu app en un servidor real. Sigue estos pasos:
 
 2. Crea un archivo llamado `app.py` y copia el contenido del programa.
 
-3. Crea un archivo llamado `Requirements.txt`: Sólo tiene que tener la palabra `streamlit`.
+3. Crea un archivo llamado `requirements.txt`: Sólo tiene que tener la palabra `streamlit`.
 
 4. Streamlit Cloud: Ve a [Streamlite Cloud](https://share.streamlit.io)
 
