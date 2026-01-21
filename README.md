@@ -25,7 +25,7 @@ https://docs.streamlit.io/get-started/fundamentals
 
 Para evitar problemas de instalación en los ordenadores de clase, usaremos un editor en la nube gratuito que permite ver el código y la web al mismo tiempo.
 
-### Opción Recomendada: [Streamlite Playground)](https://streamlit.io/playground)
+### Opción Recomendada: [Streamlite Playground](https://streamlit.io/playground)
 1.  Escribe el código a la izquierda
 2.  Interactúa con tu código a la derecha
 3.  Recuerda que **Python** es un lenguaje indentado (alinea las tabulaciones)
