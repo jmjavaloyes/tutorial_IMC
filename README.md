@@ -127,3 +127,55 @@ if st.button("Calcular ahora"):
     st.info("Fórmula matemática utilizada:")
     st.latex(r''' IMC = \frac{peso}{altura^2} ''')
 ```
+---
+
+## 6. Ejercicio Propuesto (Deberes)
+Para demostrar que dominas la materia, debes crear y entregar el siguiente proyecto.
+
+**Nombre del Proyecto:** 🛍️ "La Calculadora de Rebajas"
+
+**Escenario:** Llegan las rebajas y es difícil calcular mentalmente cuánto se queda un producto. Crea una app que ayude a los compradores a saber el precio final rápidamente.
+
+**Requisitos Obligatorios:**
+
+1. **Inputs:** El usuario debe introducir:
+
+El Precio Original (€) (usando `number_input`).
+
+El Descuento (%) (usando `slider` de 0 a 100).
+
+2. **Cálculo:** Debes programar la lógica matemática para hallar el precio final.
+
+3. **Visualización:**
+
+Usa `st.metric` para mostrar el Precio Final.
+
+Usa `st.success` (caja verde) para mostrar cuánto dinero te ahorras en total.
+
+**Bonus (Nota extra):** Si el descuento es mayor del 50%, debe salir un mensaje especial ("¡Menudo Chollo!") o una animación.
+
+Ayuda con las fórmulas:
+
+```Python
+ahorro = precio_original * (descuento / 100)
+precio_final = precio_original - ahorro
+```
+## 7. Publicar tu Proyecto
+
+Publica tu app en un servidor real. Sigue estos pasos:
+
+1. **GitHub:** Usa tu cuenta del colegio en GitHub.com y crea un nuevo repositorio con un nombre representativo
+
+2. Crea un archivo llamado `app.py` y copia el contenido del programa.
+
+3. Crea un archivo llamado `Requirements.txt`: Sólo tiene que tener la palabra `streamlit`.
+
+4. Streamlit Cloud: Ve a share.streamlit.io.
+
+* Inicia sesión con tu cuenta de GitHub.
+
+* Pulsa "Create App" arriba a la derecha
+
+* Selecciona "Deploy now" en la opción "Repositorio de GitHub"
+
+¡Listo! En unos minutos tendrás un enlace web (URL) permanente y público.
