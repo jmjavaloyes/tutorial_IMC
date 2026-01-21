@@ -77,7 +77,7 @@ st.metric(label="Temperatura Actual", value="25 ºC", delta="+2º")
 
 Vamos a crear una aplicación real. Copia este código en tu editor y ejecútalo.
 
-Archivo: app.py (o main.py)
+Archivo: app.py
 ```python
 import streamlit as st
 
