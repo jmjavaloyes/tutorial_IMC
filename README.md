@@ -170,7 +170,7 @@ Publica tu app en un servidor real. Sigue estos pasos:
 
 3. Crea un archivo llamado `requirements.txt`: Sólo tiene que tener la palabra `streamlit`.
 
-4. Streamlit Cloud: Ve a [Streamlite Cloud](https://share.streamlit.io) o pincha arriba a la derecha donde pone "Deploy: Free" como ves en el pantallazo
+4. Streamlit Cloud: Ve a [Streamlite Cloud](https://share.streamlit.io) o pincha arriba a la derecha donde pone "Deploying?: Try Free" como ves en el pantallazo
 
 ![Streamlite Cloud](/Deploy.png)
 
