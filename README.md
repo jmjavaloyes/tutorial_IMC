@@ -42,4 +42,25 @@ Comandos para pedir información al usuario:
 * `st.header("Texto")`: Subtítulo.
 * `st.write("Texto")`: Párrafo de texto normal.
 * `st.number_input("Etiqueta")`: Caja para escribir números exactos.
-* `st.slider("Etiqueta", min, max, defecto)`:
+* `st.slider("Etiqueta", min, max, defecto)`: Barra deslizante.
+* `st.text_input("Etiqueta")`: Caja para escribir texto.
+
+### B. Organización del Espacio
+* `st.sidebar`: Si añades esto delante de un comando, el elemento se va a la barra lateral izquierda.  
+  * *Ejemplo:* `st.sidebar.slider(...)`
+* `col1, col2 = st.columns(2)`: Crea dos columnas para poner elementos uno al lado del otro.
+
+### C. Representación Visual (Diseño)
+Para que la app parezca profesional y comunique mejor:
+
+**1. El Semáforo (Alertas de colores):**
+* 🟢 `st.success("Texto")`: Caja verde (Éxito, Correcto).
+* 🟡 `st.warning("Texto")`: Caja amarilla (Advertencia, Cuidado).
+* 🔴 `st.error("Texto")`: Caja roja (Error, Peligro).
+* 🔵 `st.info("Texto")`: Caja azul (Información neutral).
+
+**2. El Marcador (`st.metric`):**
+Ideal para mostrar el resultado final grande y destacado.
+```python
+# Muestra un número grande con una etiqueta encima
+st.metric(label="Temperatura Actual", value="25 ºC", delta="+2º")
