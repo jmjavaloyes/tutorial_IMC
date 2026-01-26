@@ -5,7 +5,9 @@
 **Objetivo:** Crear aplicaciones web interactivas, visuales y funcionales sin necesidad de saber HTML o CSS.
 
 
-NOTA: Esta documentación está escrita en Markdown. Si quieres saber más: https://www.markdownguide.org/basic-syntax/
+NOTA 1: Esta documentación está escrita en Markdown. Si quieres saber más: https://www.markdownguide.org/basic-syntax/
+
+NOTA 2: La documentación de Streamlit se pude ver en https://docs.streamlit.io/
 
 ---
 
